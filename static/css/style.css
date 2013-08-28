@@ -1,0 +1,53 @@
+html {
+    background: url(../img/background_2.jpg) no-repeat center center fixed; /* image from http://www.flickr.com/photos/ivydawned/4103363780/sizes/o/in/photostream/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    min-height: 1000px;
+    padding-top: 70px;
+    background: transparent;
+}
+
+.pusher {
+    margin-bottom: 60px;
+}
+
+.panel {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.notes-panel {
+    padding: 30px;
+    margin-bottom: 70px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.form-panel {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.month-name {
+    display: block;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.month-img img {
+    border: 0px;
+}
+
+.btn-years {
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #cccccc;
+}
